@@ -1,0 +1,131 @@
+# ─────────────────────────────────────────────────────────
+# Decap CMS — Configuración
+# Archivo: admin/config.yml
+# ─────────────────────────────────────────────────────────
+
+# ── Autenticación via Netlify Identity ───────────────────
+backend:
+  name: git-gateway
+  branch: main   # rama de tu repositorio en GitHub
+
+# ── Dónde se guardan las imágenes que suba el dueño ──────
+media_folder: "img"
+public_folder: "img"
+
+# ── Idioma del panel ──────────────────────────────────────
+locale: "es"
+
+# ── Colecciones (secciones editables) ────────────────────
+collections:
+
+  # ── 1. CARTA DEL MENÚ ──────────────────────────────────
+  - name: "menu"
+    label: "Carta del menú"
+    files:
+      - name: "carta"
+        label: "Gestionar carta completa"
+        file: "content/menu.json"
+        fields:
+          - label: "Categorías"
+            name: "categorias"
+            widget: "list"
+            label_singular: "Categoría"
+            fields:
+              - label: "ID interno"
+                name: "id"
+                widget: "string"
+                hint: "Sin espacios ni tildes, p.ej: para-comer, bebidas, postres"
+              - label: "Nombre de la categoría"
+                name: "nombre"
+                widget: "string"
+              - label: "Icono (emoji)"
+                name: "icono"
+                widget: "string"
+                hint: "Un emoji, p.ej: 🍽️ 🥤 🍺 🥛 🍮"
+              - label: "Platos"
+                name: "items"
+                widget: "list"
+                label_singular: "Plato"
+                fields:
+                  - label: "Nombre del plato"
+                    name: "nombre"
+                    widget: "string"
+                  - label: "Descripción"
+                    name: "descripcion"
+                    widget: "text"
+                    hint: "Una o dos frases describiendo el plato"
+                  - label: "Precio (€)"
+                    name: "precio"
+                    widget: "string"
+                    hint: "Solo el número, p.ej: 8.50"
+                  - label: "Foto del plato"
+                    name: "foto"
+                    widget: "image"
+                    required: false
+                    hint: "Sube una foto del plato (recomendado: 600x400px)"
+
+  # ── 2. SOBRE NOSOTROS ──────────────────────────────────
+  - name: "nosotros"
+    label: "Sobre nosotros"
+    files:
+      - name: "info"
+        label: "Información del restaurante"
+        file: "content/nosotros.json"
+        fields:
+          - label: "Nombre del restaurante"
+            name: "nombre"
+            widget: "string"
+          - label: "Eslogan"
+            name: "eslogan"
+            widget: "string"
+            hint: "Frase corta que aparece debajo del nombre, p.ej: Cocina de mercado · Desde 1987"
+          - label: "Historia (párrafo 1)"
+            name: "historia1"
+            widget: "text"
+          - label: "Historia (párrafo 2)"
+            name: "historia2"
+            widget: "text"
+            required: false
+          - label: "Año de apertura"
+            name: "anio"
+            widget: "string"
+            required: false
+          - label: "Foto del restaurante"
+            name: "foto"
+            widget: "image"
+            required: false
+
+  # ── 3. DATOS DE CONTACTO ───────────────────────────────
+  - name: "contacto"
+    label: "Datos de contacto"
+    files:
+      - name: "datos"
+        label: "Teléfono, dirección y horario"
+        file: "content/contacto.json"
+        fields:
+          - label: "Teléfono"
+            name: "telefono"
+            widget: "string"
+          - label: "Email"
+            name: "email"
+            widget: "string"
+          - label: "Dirección"
+            name: "direccion"
+            widget: "string"
+          - label: "Ciudad y código postal"
+            name: "ciudad"
+            widget: "string"
+          - label: "Horario (línea 1)"
+            name: "horario1"
+            widget: "string"
+            hint: "P.ej: Lunes a viernes: 8:00 – 23:00"
+          - label: "Horario (línea 2)"
+            name: "horario2"
+            widget: "string"
+            required: false
+            hint: "P.ej: Sábados: 9:00 – 23:30 · Domingos: 10:00 – 17:00"
+          - label: "Enlace Google Maps (iframe src)"
+            name: "mapa_url"
+            widget: "string"
+            required: false
+            hint: "Pega solo la URL del src del iframe de Google Maps"
