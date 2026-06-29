@@ -1,0 +1,153 @@
+{
+  "categorias": [
+    {
+      "id": "para-comer",
+      "nombre": "Para comer",
+      "icono": "🍽️",
+      "items": [
+        {
+          "nombre": "Croquetas de jamón",
+          "descripcion": "Croquetas caseras de jamón ibérico con bechamel cremosa. Ración de 8 unidades.",
+          "precio": "8.50",
+          "foto": "img/croquetas.jpg"
+        },
+        {
+          "nombre": "Tortilla española",
+          "descripcion": "Tortilla de patata con cebolla caramelizada, jugosa por dentro. Media o entera.",
+          "precio": "6.00",
+          "foto": "img/tortilla.jpg"
+        },
+        {
+          "nombre": "Tabla de quesos",
+          "descripcion": "Selección de quesos artesanales de la región con mermelada de higos y frutos secos.",
+          "precio": "12.00",
+          "foto": "img/quesos.jpg"
+        },
+        {
+          "nombre": "Bocadillo de calamares",
+          "descripcion": "Pan de telera con calamares a la romana, alioli casero y pimientos del piquillo.",
+          "precio": "7.50",
+          "foto": "img/bocadillo.jpg"
+        }
+      ]
+    },
+    {
+      "id": "bebidas",
+      "nombre": "Bebidas",
+      "icono": "🥤",
+      "items": [
+        {
+          "nombre": "Agua mineral",
+          "descripcion": "Agua mineral natural o con gas, 50cl.",
+          "precio": "1.50",
+          "foto": "img/agua.jpg"
+        },
+        {
+          "nombre": "Refresco",
+          "descripcion": "Coca-Cola, Fanta naranja, Fanta limón o Nestea. Lata 33cl.",
+          "precio": "2.50",
+          "foto": "img/refresco.jpg"
+        },
+        {
+          "nombre": "Café solo",
+          "descripcion": "Café de especialidad de tueste medio, servido en taza de porcelana.",
+          "precio": "1.80",
+          "foto": "img/cafe.jpg"
+        },
+        {
+          "nombre": "Zumo natural",
+          "descripcion": "Zumo de naranja exprimido al momento, 25cl.",
+          "precio": "3.00",
+          "foto": "img/zumo.jpg"
+        }
+      ]
+    },
+    {
+      "id": "cervezas",
+      "nombre": "Cervezas",
+      "icono": "🍺",
+      "items": [
+        {
+          "nombre": "Caña",
+          "descripcion": "Cerveza de barril bien fría, 20cl. Pregunta por nuestra cerveza del mes.",
+          "precio": "2.00",
+          "foto": "img/cana.jpg"
+        },
+        {
+          "nombre": "Botellín",
+          "descripcion": "Estrella Damm, Mahou o Voll-Damm. 25cl bien fría.",
+          "precio": "2.80",
+          "foto": "img/botella.jpg"
+        },
+        {
+          "nombre": "Cerveza artesana",
+          "descripcion": "Selección rotatoria de cervezas artesanas locales. Pregunta al camarero por la disponible.",
+          "precio": "4.50",
+          "foto": "img/artesana.jpg"
+        },
+        {
+          "nombre": "Sin alcohol",
+          "descripcion": "Estrella Damm 0,0 o Voll-Damm 0,0. Para disfrutar sin renunciar al sabor.",
+          "precio": "2.50",
+          "foto": "img/sinalcohol.jpg"
+        }
+      ]
+    },
+    {
+      "id": "batidos",
+      "nombre": "Batidos",
+      "icono": "🥛",
+      "items": [
+        {
+          "nombre": "Batido de fresa",
+          "descripcion": "Fresas frescas de temporada con leche entera y un toque de vainilla. 40cl.",
+          "precio": "4.50",
+          "foto": "img/batido-fresa.jpg"
+        },
+        {
+          "nombre": "Batido de chocolate",
+          "descripcion": "Cacao puro con leche entera y helado de vainilla. Un clásico sin rival. 40cl.",
+          "precio": "4.50",
+          "foto": "img/batido-choco.jpg"
+        },
+        {
+          "nombre": "Batido de mango",
+          "descripcion": "Mango natural con leche de coco y zumo de lima. Fresco y tropical. 40cl.",
+          "precio": "5.00",
+          "foto": "img/batido-mango.jpg"
+        },
+        {
+          "nombre": "Batido verde",
+          "descripcion": "Espinacas, plátano, manzana verde y jengibre. Energía natural sin azúcar añadido. 40cl.",
+          "precio": "5.00",
+          "foto": "img/batido-verde.jpg"
+        }
+      ]
+    },
+    {
+      "id": "postres",
+      "nombre": "Postres",
+      "icono": "🍮",
+      "items": [
+        {
+          "nombre": "Tarta de queso",
+          "descripcion": "Tarta de queso horneada con base de galleta y coulis de frutos rojos. Receta propia.",
+          "precio": "5.00",
+          "foto": "img/tarta.jpg"
+        },
+        {
+          "nombre": "Crema catalana",
+          "descripcion": "Crema catalana tradicional con azúcar quemado al momento. Servida fría.",
+          "precio": "4.50",
+          "foto": "img/crema.jpg"
+        },
+        {
+          "nombre": "Coulant de chocolate",
+          "descripcion": "Bizcocho de chocolate con corazón fundente, servido con helado de vainilla.",
+          "precio": "5.50",
+          "foto": "img/coulant.jpg"
+        }
+      ]
+    }
+  ]
+}
