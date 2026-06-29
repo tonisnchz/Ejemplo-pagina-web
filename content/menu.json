@@ -28,6 +28,12 @@
           "descripcion": "Pan de telera con calamares a la romana, alioli casero y pimientos del piquillo.",
           "precio": "7.50",
           "foto": "img/bocadillo.jpg"
+        },
+        {
+          "nombre": "jose",
+          "descripcion": "josemanuel",
+          "precio": "0",
+          "foto": "img/image.jpg"
         }
       ]
     },
