@@ -152,12 +152,6 @@
           "descripcion": "Bizcocho de chocolate con corazón fundente, servido con helado de vainilla.",
           "precio": "5.50",
           "foto": "img/coulant.jpg"
-        },
-        {
-          "nombre": "Toni",
-          "descripcion": "un toni dulce",
-          "precio": "1023€",
-          "foto": "img/image.jpg"
         }
       ]
     }
