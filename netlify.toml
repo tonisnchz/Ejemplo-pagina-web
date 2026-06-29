@@ -1,9 +1,4 @@
-# netlify.toml — Configuración de Netlify
-# Este archivo le dice a Netlify cómo publicar el sitio
-
-[build]
-  publish = "."        # publica desde la raíz del proyecto
-
-# Activa Netlify Identity (necesario para el panel /admin)
-[[plugins]]
-  package = "@netlify/plugin-identity-gateway"
+[
+build
+]
+   publish = "."
