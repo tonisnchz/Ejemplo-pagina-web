@@ -65,6 +65,12 @@
           "descripcion": "Zumo de naranja exprimido al momento, 25cl.",
           "precio": "3.00",
           "foto": "img/zumo.jpg"
+        },
+        {
+          "nombre": "Simon",
+          "descripcion": "Simon",
+          "precio": "0.01",
+          "foto": "img/image.jpg"
         }
       ]
     },
